@@ -7,3 +7,166 @@
 img{
     display: block;
 }
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.bg-blue{
+    background-color: rgb(0,132,253);
+}
+
+.padding-30{
+    padding: 30px 0;
+}
+
+.allign-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.fixed{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.fa-bars{
+    font-size: 30px;
+    color: white;
+    margin: auto 0;
+}
+
+/* per nascondere la menu bar nel dispositivo mobile */
+.menu-bar a{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-bar a{
+    
+    margin-left: 10px;
+}
+
+.bt-white{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.padding-150{
+    padding: 150px 0;
+}
+
+.flex-basis-1{
+    flex-basis:100%;
+}
+
+.flex-basis{
+    flex-basis:100%;
+}
+
+.bt-blue{
+    background-color: rgb(0,132,253);
+    color: white;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.bt-blue span{
+    margin-left: 10px;
+}
+
+.bg-azzure{
+    background-color: rgb(181,221,255);
+    border-radius: 20px;
+}
+
+.card-azzure{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.card-azzure h3{
+    padding-top: 30px;
+}
+
+.card-azzure p{
+    padding: 30px 0;
+}
+
+.card-azzure img{
+    margin-top: 30px;
+}
+
+.card-azzure h3{
+    color: rgb(0,132,253);
+    /* font-size: 30px; */
+}
+
+.card-azzure > i{
+    color: rgb(0,132,253);
+    font-size: 50px;
+}
+
+
+.margin-bottom-2{
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+/****************
+RESPONSIVE
+****************/
+
+@media screen and (min-width: 480px){
+    .flex-basis-1{
+        flex-basis:calc(100% / 3 * 2 - 1%);
+    }
+
+    .flex-basis{
+        flex-basis:calc(100% / 3 - 2%);
+    }
+}
+
+@media screen and (min-width:768px){
+    .menu-bar a{
+        display: inline-block;
+    }
+
+    .menu-bar i{
+        display: none;
+    }
+}
