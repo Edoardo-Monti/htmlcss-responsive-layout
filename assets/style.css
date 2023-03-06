@@ -115,7 +115,20 @@ a{
     width: 80%;
 }
 
+.card-azzure p{
+    text-align: center;
+}
+
+.card-azzure-1{
+    margin: 0 auto;
+    width: 80%;
+}
+
 .card-azzure h3{
+    padding-top: 30px;
+}
+
+.card-azzure-1 h3{
     padding-top: 30px;
 }
 
@@ -123,7 +136,15 @@ a{
     padding: 30px 0;
 }
 
+.card-azzure-1 p{
+    padding: 30px 0;
+}
+
 .card-azzure img{
+    margin-top: 30px;
+}
+
+.card-azzure-1 img{
     margin-top: 30px;
 }
 
@@ -132,9 +153,15 @@ a{
     /* font-size: 30px; */
 }
 
+.card-azzure-1 h3{
+    color: rgb(0,132,253);
+    /* font-size: 30px; */
+}
+
 .card-azzure > i{
     color: rgb(0,132,253);
     font-size: 50px;
+    margin-top: 30px;
 }
 
 
@@ -142,9 +169,55 @@ a{
     margin-bottom: 2%;
 }
 
+header img{
+    width: 100%;
+}
 
+/* Inizio Main */
+/* Prima Sezione */
 
+.bg-violet{
+    background-color: rgb(151 146 228);
+    
+}
 
+.bg-white{
+    background-color: white;
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-violet img{
+    padding: 40px 0;
+}
+
+.bg-violet p{
+    padding: 40px 0;
+}
+
+.planning2 p{
+    line-height: 30px;
+    text-align: center;
+}
+
+.bt-violet{
+    background-color: rgb(151 146 228);
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+.planning1{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.planning2{
+    margin-bottom: 50px;
+}
+
+.planning1 .container-80{
+    color: white;
+}
 
 
 /****************
@@ -168,5 +241,61 @@ RESPONSIVE
 
     .menu-bar i{
         display: none;
+    }
+
+    .card-azzure-1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .resp-desk-1{
+        flex-basis:calc(100% / 3 *2);
+        
+    }
+
+    .resp-desk{
+        flex-basis: calc(100% / 3);
+    }
+
+    /* main */
+    .planning1{
+        flex-basis:50%;
+    }
+
+    .planning2{
+        flex-basis: 40%;
+    }
+
+    .bg-violet{
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .planning1{
+        margin: 50px auto;
+        justify-content: space-between;
+    }
+
+    .planning2{
+        margin: 50px auto
+    }
+
+    .container-60{
+        width: 60%;
+        display: flex;
+    }
+
+    .planning1 img{
+        width: 100%;
+    }
+
+    .relative{
+        position: relative;
+    }
+
+    .absolute{
+        position: absolute;
+        top: -135px;
+        left: 0;
     }
 }
