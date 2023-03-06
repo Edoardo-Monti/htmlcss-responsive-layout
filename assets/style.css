@@ -49,6 +49,10 @@ img{
     justify-content: center;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .fixed{
     width: 100%;
     position: fixed;
@@ -187,7 +191,11 @@ header img{
     padding-bottom: 30px;
 }
 
-.bg-violet img{
+.planning1 img{
+    padding: 40px 0;
+}
+
+.planning2 img{
     padding: 40px 0;
 }
 
@@ -219,6 +227,62 @@ header img{
     color: white;
 }
 
+/* Seconda Sezione */
+.expert1{
+    margin-top: 50px;
+}
+
+.expert1 h1{
+    color: rgb(151 146 228);
+    margin: 30px auto;
+}
+
+.expert1 p{
+    padding-bottom: 30px;
+}
+
+.violet-card{
+    border-radius: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.violet-card p{
+    line-height: 40px;
+}
+
+.violet-card p, h4{
+    color: white;
+}
+
+.violet-card p::before{
+    content: "\201C";
+    font-size: 40px;
+}
+
+.violet-card p::after{
+    content: "\201D";
+    font-size: 40px;
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.circle img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.flex-card-violet{
+    margin-bottom: 50px;
+}
 
 /****************
 RESPONSIVE
@@ -231,6 +295,30 @@ RESPONSIVE
 
     .flex-basis{
         flex-basis:calc(100% / 3 - 2%);
+    }
+
+    /* Seconda sezione main */
+    .flex-card-violet{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .circle{
+        width: 430px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 30px;
+        overflow: hidden;
+    }
+
+    .circle img{
+        width: 205px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .text-center{
+        text-align: left;
     }
 }
 
@@ -258,6 +346,7 @@ RESPONSIVE
     }
 
     /* main */
+    /* Prima Sezione */
     .planning1{
         flex-basis:50%;
     }
@@ -298,4 +387,6 @@ RESPONSIVE
         top: -135px;
         left: 0;
     }
+
+    /* Seconda Sezione */
 }
