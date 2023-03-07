@@ -266,23 +266,91 @@ header img{
 }
 
 .circle{
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    width: 200px;
+    aspect-ratio: 1;
     border-radius: 50%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.circle img{
-    width: 250px;
-    height: 300px;
     object-fit: cover;
-    
+    margin: 0.75rem auto;
 }
 
 .flex-card-violet{
     margin-bottom: 50px;
 }
+
+/* Terza Sezione */
+.bg-violet2 > h1{
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+}
+
+.card1{
+    background-color: white;
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 1.25rem 1.25rem;
+    border-radius: 30px;
+}
+
+.card1 h1, h3{
+    color: rgb(151 146 228);
+    padding: 1.25rem 0;
+}
+
+.card1 h1{
+    font-size: 4rem;
+}
+
+.card1 h3{
+    font-size: 2rem;
+}
+
+.card1 p{
+    line-height: 2rem;
+}
+
+.btn-violet{
+    background-color: rgb(151 146 228);
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 3rem;
+}
+
+.card-dad{
+    padding: 3rem auto;
+}
+
+/* Quarta Sezione */
+.about-us h1{
+    color: rgb(151 146 228);
+    font-size: 4rem;
+}
+
+.about-us p{
+    margin: 2rem auto;
+    line-height: 2rem;
+}
+
+.about-me p{
+    font-size: 30px;
+    color: rgb(151 146 228);
+    align-items: start;
+}
+
+.relative{
+    position: relative;
+}
+
+
+.fa-quote-left{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    color: rgb(151 146 228);
+}
+
 
 /****************
 RESPONSIVE
@@ -304,21 +372,39 @@ RESPONSIVE
     }
 
     .circle{
-        width: 430px;
-        height: 200px;
+        width: 100%;
+        width: 200px;
+        aspect-ratio: 1;
         border-radius: 50%;
-        margin: 0 30px;
-        overflow: hidden;
-    }
-
-    .circle img{
-        width: 205px;
-        height: 200px;
         object-fit: cover;
+        margin: auto 0.75rem;
     }
 
     .text-center{
         text-align: left;
+    }
+
+    /* Terza Sezione Main */
+    .card1{
+        width: calc(100% / 2 - 2%);
+    }
+
+    .card-dad{
+        justify-content: space-between;
+    }
+
+    /* Quarta sezione */
+    .about-us{
+        width: 50%;
+    }
+
+    .about-me{
+        width: 45%;
+        padding-top: 30px;
+    }
+
+    .btn-violet-small{
+        font-size: 10px;
     }
 }
 
@@ -345,6 +431,11 @@ RESPONSIVE
         flex-basis: calc(100% / 3);
     }
 
+    .card-azzure-1 img{
+        width: 150%;
+        padding-right: 20px;
+    }
+
     /* main */
     /* Prima Sezione */
     .planning1{
@@ -355,7 +446,7 @@ RESPONSIVE
         flex-basis: 40%;
     }
 
-    .bg-violet{
+    .bg-violet1{
         justify-content: center;
         padding-top: 100px;
     }
@@ -378,6 +469,10 @@ RESPONSIVE
         width: 100%;
     }
 
+    .planning2 img{
+        width: 80%;
+    }
+
     .relative{
         position: relative;
     }
@@ -388,5 +483,19 @@ RESPONSIVE
         left: 0;
     }
 
-    /* Seconda Sezione */
+    /* Terza Sezione */
+    .card1{
+        width: calc(100% / 3 - 2%);
+    }
+
+    /* Quarta Sezione */
+    .about-us{
+        width: 70%;
+    }
+
+    .about-me{
+        width: 25%;
+        padding-top: 30px;
+    }
+
 }
