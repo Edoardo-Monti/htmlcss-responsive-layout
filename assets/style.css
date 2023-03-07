@@ -70,7 +70,7 @@ img{
     display: none;
 }
 
-a{
+header, main a{
     text-decoration: none;
 }
 
@@ -342,6 +342,10 @@ header img{
     position: relative;
 }
 
+.about-me{
+    padding-bottom: 3rem;
+}
+
 
 .fa-quote-left{
     position: absolute;
@@ -351,6 +355,53 @@ header img{
     color: rgb(151 146 228);
 }
 
+/* Footer */
+.cont-center{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.cont-center h4{
+    color: lightgray;
+}
+
+.cont-center h3{ 
+    color: white;
+    font-size: 2rem;
+}
+
+.cont-center h1{
+    color: rgb(253 193 95);
+    font-size: 3rem;
+}
+
+.cont-center p{
+    color: white;
+    line-height: 30px;
+}
+
+footer .bt-white{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: rgb(151 146 228);
+}
+
+.bg-black{
+    background-color: rgb(51 51 51);
+}
+
+footer span{
+    color: white;
+}
+
+.padding-80{
+    padding-top: 80px;
+}
+
+.padding-80 a{
+    color: rgb(151 146 228);
+}
 
 /****************
 RESPONSIVE
@@ -405,6 +456,11 @@ RESPONSIVE
 
     .btn-violet-small{
         font-size: 10px;
+    }
+
+    /* Footer */
+    .cont-center{
+        width: 60%;
     }
 }
 
@@ -498,4 +554,8 @@ RESPONSIVE
         padding-top: 30px;
     }
 
+    /* Footer */
+    .cont-center{
+        width: 30%;
+    }
 }
