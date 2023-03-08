@@ -374,6 +374,8 @@ header img{
 .cont-center h1{
     color: rgb(253 193 95);
     font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
 }
 
 .cont-center p{
