@@ -295,7 +295,7 @@ header img{
 
 .card1 h1, h3{
     color: rgb(151 146 228);
-    padding: 1.25rem 0;
+    padding-top: 1.25rem ;
 }
 
 .card1 h1{
@@ -340,6 +340,7 @@ header img{
 
 .relative{
     position: relative;
+    display: inline-block;
 }
 
 .about-me{
